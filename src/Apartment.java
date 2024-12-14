@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.Random;
 
 /**
- * Represents an apartment containing an array of electrical appliances.
+ * Represents an apartment containing an array of {@link ElectricalAppliance} objects.
  * Allows operations such as adding appliances, calculating total power consumption,
  * and sorting or filtering appliances.
  */

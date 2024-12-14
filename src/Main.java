@@ -5,12 +5,12 @@ import java.util.Scanner;
 
 /**
  * The main entry point for the application.
- * Demonstrates the functionality of managing electrical appliances in an apartment.
+ * Demonstrates the functionality of managing {@link ElectricalAppliance} objects in {@link Apartment}.
  */
 public class Main {
     /**
      * The entry point of the application.
-     * Creates an apartment, adds random electrical appliances, and performs various operations such as:
+     * Creates {@link Apartment} instance, adds random {@link ElectricalAppliance} objects and performs various operations such as:
      * <ul>
      *     <li>Plugging in a random number of appliances</li>
      *     <li>Unplugging a random number of appliances</li>
@@ -84,7 +84,7 @@ public class Main {
     }
 
     /**
-     * Creates a random {@code ElectricalAppliance} instance with a random brand and type.
+     * Creates a random {@link ElectricalAppliance} instance with a random brand and type.
      * Randomly selects one of the predefined appliance types:
      * <ul>
      *     <li>ElectricStove</li>
